@@ -39,3 +39,39 @@ python a1_pipeline.py
 - CSV export
 - Building mini bioinformatics pipelines
 
+---
+
+# 📊 Data Visualization (matplotlib)
+
+After generating the filtered gene table, I visualized the data using **matplotlib**.
+
+## Script
+A_pipeline/a2_plot.py
+
+## What it does
+Reads `gene_filtered.csv` and creates plots:
+
+1. Gene Length Distribution → `length_hist.png`
+2. GC% Distribution → `gc_hist.png`
+3. Length vs GC Scatter Plot → `length_vs_gc.png`
+
+## ▶️ Run
+
+```bash
+cd panda/A_pipeline
+python a2_plot.py
+```
+
+## 📈 Output Files
+
+- length_hist.png
+- gc_hist.png
+- length_vs_gc.png
+
+## Skills Practiced
+
+- Reading CSV with pandas
+- Histogram plotting
+- Scatter plots
+- Saving figures automatically
+- Basic biological data visualization
